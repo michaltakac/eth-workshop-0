@@ -10,6 +10,16 @@ module.exports = {
       port: 7545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
     },
+    ropsten: {
+      host: "https://infure.sdbchjaschj",
+      port: 8545,
+      network_id: 2
+    },
+    mainnet: {
+      host: "https://mainnet.infura.sdbchjaschj",
+      port: 8545,
+      network_id: 1
+    }
   },
 
   // Set default mocha options here, use special reporters etc.
